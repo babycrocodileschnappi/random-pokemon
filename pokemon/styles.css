@@ -1,0 +1,80 @@
+/* body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+  } */
+  
+  body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+  }
+
+  main {
+    background: #efefbb;
+    background: linear-gradient(to right, #d4d3dd, #efefbb);
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+ 
+  .container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+
+    min-height: 60vh;
+    min-width: 60vh;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+  }
+
+  /* .container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+  } */
+  
+  .pokemon-info {
+    margin-bottom: 20px;
+  }
+  
+  #pokemon-image {
+    width: 512px; /* 增大 max-width 的值 */
+    height: 512px;
+  }
+  
+  #refresh-button {
+    background: #efefbb;
+    background: linear-gradient(to right, #d4d3dd, #efefbb);
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
